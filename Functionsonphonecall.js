@@ -1,5 +1,5 @@
 function retrieveDescription() {
-    // hey iam editing my own file file 
+    // hey iam editing my own file file it is branch gmn
     var description = Xrm.Page.getAttribute("description").getValue();
     var subject = Xrm.Page.getAttribute("subject").getValue();
     if (description !== null && subject !== null) {
